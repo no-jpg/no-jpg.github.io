@@ -1,5 +1,3 @@
-ok so this is a somewhat-beginner-friendly guide to making a linux rice (yaaay)
-
 # Terminology
 First, I want to list a bit of terminology to make things more digestible:
 - Xorg, aka X, is a display server. Basically, it's the framework for any sort of window system on Linux. Due to how prevalent it is in the Linux space, it's a common prerequisite for anything involving a GUI (Graphical User Interface).
@@ -149,7 +147,7 @@ i3's default control scheme can take some getting used to, and there are a lot o
 ### Status Bar
 i3 has a submodule called i3-status, responsible for making that cool little bar at the bottom work. Unfortunately, the default configuration is complicated and a little bloated depending on your hardware.
 
-You can copy the template used from `/etc/i3status.conf` to `~/.config/i3status/` under the name `config`. Most naming is self-explanatory, so you can start with deleting the stuff you don't need, but then you might want to visit [the man page](https://i3wm.org/docs/i3status.html) for more info on how to customize things further
+You can copy the template used from `/etc/i3status.conf` to `~/.config/i3status/` under the name `config`. Most naming is self-explanatory, so you can start with deleting the stuff you don't need, but then you might want to visit [the man page](https://i3wm.org/docs/i3status.html) for more info on how to customize things further.
 
 ### Screenshots
 After you're done with all of this stuff, you're probably going to want to show off what you've made. If you want a quick-to-reach screenshot button, use this.
